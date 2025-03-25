@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-image: url('sua-imagem-de-fundo.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.contact-info {
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+.deadline {
+    font-weight: bold;
+    color: #ffcc00;
+}
